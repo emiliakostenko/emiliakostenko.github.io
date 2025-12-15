@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Elements Reference - Massively by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Kostenko</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Self Assessment</a></li>
+							<li><a href="software.html">Software and Engineering</a></li>
+							<li><a href="algoPage.html">Algorithms and data structures</a></li>
+							<li class="active"><a href="databases.html">Databases</a></li>
+							
+						</ul>
+						<ul class="icons">
+							<li><a href="https://github.com/emiliakostenko/emiliakostenko.github.io" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h2>Database <br />
+									 enhancement</h2>
+									<p>This enhancement will demonstrate my skills and abilities in working with databases.</p>
+								</header>
+								<p><header>
+										<h2><a href="#">Narrative</a></h2>
+									</header>
+								<p>The artifact that I selected is my inventory tracking mobile app from CS360. The original version allowed users to perform 
+									CRUD operations for inventory items. Users were able to manage and keep track of inventory with screens for logging in, 
+									adding items, displaying current items, and managing item amounts. This app was created in October 2025. </p>
+								<p>This artifact will showcase skills that will make me more marketable. These include building an application that 
+									supports a diverse audience and is technically sound, showcasing innovative techniques. Techniques such as 
+									employing a binary search tree for efficient information retrieval and building an intuitive app through Android 
+									Studio that utilizes an SQLite database showcase technical skills. Additionally, this will showcase my ability to 
+									apply secure coding practices to reduce security vulnerabilities through proper error handling, input validation,
+									 authentication, and authorization. To improve my artifact, I added four new features, which include adding a search 
+									 functionality utilizing a binary search tree algorithm, a feature to manage inventory items by a custom amount, 
+									 adding folders to store inventory items within, and creating a description page for individual inventory items.  </p>
+								<p>The course outcome that I planned to meet with this enhancement was:
+									<ul>
+										<li>Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing 
+											practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.  </li>
+									</ul>
+									The enhancement applied in this milestone aligns with the course outcome. The use of the database tables and CRUD methods help implement 
+									solutions that deliver value by supporting the new features implemented in the previous milestones. I don’t have any updates to my outcome coverage plans.
+								</p>
+								<ul class="actions special">
+									<li><a href= "https://github.com/emiliakostenko/emiliakostenko.github.io/blob/main/databaseEnhancement.zip" class="button large">View Enhancement Files</a></li>
+								</ul>
+								<h2>Reflection</h2>
+								<p>As I started to implement the new tables for the features I had planned, I realized that I did not need one of the tables I had planned to add. The two tables I had planned to add were:<br>
+									<br>InventoryHistory (ItemId, PreviousCount, NewCount, DateModified)
+									<br>LowStock (Columns: ItemId, Threshold)</br>
+									<br>Instead of adding a new table to track the low stock threshold, I decided to add the columns description and threshold to the existing InventoryTable. These two columns help support the new item description page and allow users to set a custom low inventory threshold for SMS notifications. Additionally, I updated the InventoryItem object to include the threshold and description attributes. This required me to sift through any uses of the object to ensure I updated the implementation everywhere these new attributes were needed.
+									One thing I had not anticipated was the need for an additional table to support the folder page. As I developed this feature in the first enhancement, I realized it would be beneficial to have a separate table to support it. I also had trouble implementing a graph to visualize the data saved in the InventoryHistory table. After researching different approaches, I tried using one library, but after a lot of trial and error, I discovered it was outdated. Currently, there is no implementation to view inventory history insights in the app. Once I find a compatible charting library, the table and methods are already available for use. 
+									</p>
+							</section>
+								
+
+					</div>
+
+				<!-- Footer -->
+					
+
+				<!-- Copyright -->
+					<div id="copyright">
+						
+					</div>
+
+			</div>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
