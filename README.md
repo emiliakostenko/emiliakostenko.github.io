@@ -1,5 +1,5 @@
-# Computer Science, Data Analytics Student
+# Computer Science, Data Analytics Graduate
 
 ### Education
-Bachelors in Computer Science, minor in Data Analytics
-Expected Graduation : December 2025
+Bachelors in Computer Science, concentration in Data Analytics
+Graduation : March 2026
